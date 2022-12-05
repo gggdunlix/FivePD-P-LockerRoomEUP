@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>FivePD_P_LockerRoomEUP</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	 <LangVersion>preview</LangVersion>
+    <AssemblyName>LockerRoomEUP.net</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CitizenFX.Core">
+      <HintPath>E:\FiveM\FiveM.app\citizen\clr2\lib\mono\4.5\CitizenFX.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CitizenFX.Core.Client">
+      <HintPath>E:\FiveM\FiveM.app\citizen\clr2\lib\mono\4.5\CitizenFX.Core.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="FivePD.net">
+      <HintPath>..\..\..\..\..\..\txData\QBCoreFramework_C9E8E1.base\resources\[oldserver]\fivepd\FivePD.net.dll</HintPath>
+    </Reference>
+    <Reference Include="MenuAPI">
+      <HintPath>..\..\..\..\..\..\txData\QBCoreFramework_C9E8E1.base\resources\[gui]\LSCustoms\MenuAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\..\Desktop\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
